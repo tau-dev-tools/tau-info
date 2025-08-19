@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TAU Developer Tools</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-container">
+                        <img src="images/ahdevtools-logo.png" alt="TAU Developer Tools" class="logo-image">
+                    </div>
+                    <span class="logo-text">TAU Developer Tools</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="products.html" class="nav-link">Products</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="mobile-menu-button">
+                    <button id="mobile-menu-toggle" class="menu-button" aria-label="Toggle menu">
+                        <svg class="menu-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                        <svg class="close-icon hidden" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="mobile-nav hidden">
+                <div class="mobile-nav-content">
+                    <a href="index.html" class="mobile-nav-link">Home</a>
+                    <a href="products.html" class="mobile-nav-link">Products</a>
+                    <a href="contact.html" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="contact-container">
+            <!-- Header -->
+            <div class="page-header">
+                <a href="index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12,19 5,12 12,5"></polyline>
+                    </svg>
+                    Back to Home
+                </a>
+                <h1 class="page-title">Get in Touch</h1>
+                <p class="page-description">
+                    Have questions about our tools or need support? We'd love to hear from you!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <h2 class="contact-card-title">Email Us</h2>
+                        <p class="contact-card-description">Send us an email and we'll get back to you as soon as possible.</p>
+                    </div>
+                    <div class="contact-card-content">
+                        <div class="contact-info">
+                            <h3 class="contact-info-title">General Inquiries</h3>
+                            <a href="mailto:taudevtools@gmail.com" class="contact-email-button">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                taudevtools@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support Information -->
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-card-icon secondary">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="contact-card-title">Support</h2>
+                        <p class="contact-card-description">Need help with our tools? We're here to assist you.</p>
+                    </div>
+                    <div class="contact-card-content">
+                        <div class="support-info">
+                            <h3 class="support-info-title">What we can help with:</h3>
+                            <ul class="support-list">
+                                <li class="support-item">
+                                    <div class="support-bullet"></div>
+                                    <span>Installation and setup assistance</span>
+                                </li>
+                                <li class="support-item">
+                                    <div class="support-bullet"></div>
+                                    <span>Technical support and troubleshooting</span>
+                                </li>
+                                <li class="support-item">
+                                    <div class="support-bullet"></div>
+                                    <span>Feature requests and feedback</span>
+                                </li>
+                                <li class="support-item">
+                                    <div class="support-bullet"></div>
+                                    <span>Custom development inquiries</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Information -->
+            <div class="additional-info-card">
+                <div class="additional-info-content">
+                    <div class="additional-info-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="additional-info-title">Built for Unity Developers</h3>
+                    <p class="additional-info-description">
+                        TAU Developer Tools is created by Unity developers, for Unity developers. We understand the challenges
+                        you face and are committed to building tools that make your development process smoother and more
+                        enjoyable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <h3 class="footer-title">TAU Developer Tools</h3>
+                    <p class="footer-description">
+                        Professional Unity development tools built with passion for the developer community.
+                    </p>
+                    <div class="footer-copyright">
+                        <span>© 2025 TAU DevTools. Built with</span>
+                        <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                        <span>for Unity developers.</span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="products.html" class="footer-link">Products</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h3 class="footer-title">Get in Touch</h3>
+                    <div class="footer-contact">
+                        <svg class="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:taudevtools@gmail.com" class="footer-email">taudevtools@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
