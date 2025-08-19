@@ -1,0 +1,35 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #181818;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+section {
+    padding: 2em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+}
+footer {
+    background: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+}
+a {
+    color: #007ACC;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
