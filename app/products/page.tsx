@@ -70,7 +70,7 @@ export default function ProductsPage() {
                   </ul>
 
                   <Button asChild size="lg">
-                    <Link href="https://assetstore.unity.com/packages/tools/utilities/gpt-ui-icon-generator-123456">
+                    <Link href="https://assetstore.unity.com/packages/2d/gui/icons/gpt-ui-icon-generator-323049">
                       Try on Unity Asset Store <ExternalLink className="ml-2 w-5 h-5" />
                     </Link>
                   </Button>
