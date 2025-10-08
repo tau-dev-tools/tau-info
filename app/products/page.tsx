@@ -126,7 +126,7 @@ export default function ProductsPage() {
                   <Box className="w-8 h-8 text-secondary" />
                 </div>
                 <div>
-                  <CardTitle className="font-montserrat font-bold text-3xl">Tripo3D Generator</CardTitle>
+                  <CardTitle className="font-montserrat font-bold text-3xl">AI 3D Model Generator</CardTitle>
                   <CardDescription className="text-lg">
                     Advanced 3D content generation tool for Unity developers
                   </CardDescription>
