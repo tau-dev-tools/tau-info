@@ -145,7 +145,7 @@ export default function ProductsPage() {
                   <h3 className="font-montserrat font-bold text-xl mb-4">Planned Features</h3>
                   <ul className="space-y-3 mb-6">
                     {[
-                      "AI-powered 3D model generation from text descriptions",
+                      "AI-powered 3D model generation from text descriptions and images",
                       "Seamless Unity Editor integration",
                       "High-quality mesh optimization and cleanup",
                       "Automatic texture and material generation",
@@ -160,19 +160,10 @@ export default function ProductsPage() {
                     ))}
                   </ul>
 
-                  <Button disabled size="lg" variant="secondary">
-                    Coming Soon
-                  </Button>
-                </div>
-
-                <div className="bg-muted/30 rounded-lg p-6">
-                  <h3 className="font-montserrat font-bold text-xl mb-4">Stay Updated</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Want to be notified when Tripo3D Generator launches? Get in touch with us and we'll keep you
-                    informed about the development progress.
-                  </p>
-                  <Button asChild variant="outline">
-                    <Link href="/contact">Get Notified</Link>
+                  <Button asChild size="lg">
+                    <Link href="https://assetstore.unity.com/packages/tools/generative-ai/ai-3d-model-generator-330156">
+                      Try on Unity Asset Store <ExternalLink className="ml-2 w-5 h-5" />
+                    </Link>
                   </Button>
                 </div>
               </div>
