@@ -17,8 +17,10 @@ export function ProductShowcase() {
         "Saves clean Unity Sprites in one click",
         "Seamless Unity Asset Store integration",
       ],
-      link: "https://assetstore.unity.com/packages/tools/utilities/gpt-ui-icon-generator-123456",
+      link: "https://assetstore.unity.com/packages/2d/gui/icons/gpt-ui-icon-generator-323049",
       linkText: "Try on Unity Asset Store",
+      secondaryLink: "https://www.tauicongenerator.com/index.html",
+      secondaryLinkText: "Explore Advanced Standalone App",
     },
     {
       id: "tripo3d-generator",
@@ -150,12 +152,23 @@ export function ProductShowcase() {
                     </div>
                   )}
 
-                  <Button asChild className="w-full">
-                    <Link href={product.link}>
-                      {product.linkText}
-                      {product.link !== "#" && <ExternalLink className="ml-2 w-4 h-4" />}
-                    </Link>
-                  </Button>
+                  <div className="flex flex-col gap-3">
+                    <Button asChild className="w-full">
+                      <Link href={product.link}>
+                        {product.linkText}
+                        {product.link !== "#" && <ExternalLink className="ml-2 w-4 h-4" />}
+                      </Link>
+                    </Button>
+
+                    {"secondaryLink" in product && product.secondaryLink && (
+                      <Button asChild className="w-full" variant="secondary">
+                        <Link href={product.secondaryLink}>
+                          {product.secondaryLinkText}
+                          <ExternalLink className="ml-2 w-4 h-4" />
+                        </Link>
+                      </Button>
+                    )}
+                  </div>
                 </CardContent>
               </Card>
             )
